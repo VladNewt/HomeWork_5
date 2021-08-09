@@ -28,16 +28,13 @@ public class Zadaniye_1 {
             sum = sum+num[i];
         }
 
-
-
-
-        double mid = (5/3);
-        double midDown = Math.floor(sum/num.length);
-        double midUp = Math.ceil(sum/num.length);
+        double mid = (double)(sum)/(double)(num.length);
+        double midDown = Math.floor(mid);
+        double midUp = Math.ceil(mid);
 
         System.out.println("Sum = " + sum);
         System.out.println("Abs(sum) = " + sum);
-        System.out.printf("Middle = %.5f \n", mid);
+        System.out.printf("Middle = %.3f \n", mid);
         System.out.printf("MiddleDown = %.1f\n", midDown);
         System.out.printf("MiddleUp = %.1f", midUp);
     }
