@@ -9,9 +9,9 @@ public class Zadaniye_4 {
                         +"Цветы для Элджернона#Собачье сердце#Кукольных дел мастер#"
                         +"Пикник на обочине#Марсианские хроники#Понедельник начинается "
                 +"в субботу#Марсианин#Трудно быть богом";
-//
-        String[] arr = str.split("#");
 
+        String[] arr = str.split("#");
+//
         for (int i = 0; i < arr.length; i++) {
             arr[i] = "*"+arr[i];
             System.out.println(arr[i]);
