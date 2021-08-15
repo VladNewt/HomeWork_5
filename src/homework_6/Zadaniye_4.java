@@ -11,7 +11,7 @@ public class Zadaniye_4 {
                 +"в субботу#Марсианин#Трудно быть богом";
 
         String[] arr = str.split("#");
-
+//
         for (int i = 0; i < arr.length; i++) {
             arr[i] = "*"+arr[i];
             System.out.println(arr[i]);
