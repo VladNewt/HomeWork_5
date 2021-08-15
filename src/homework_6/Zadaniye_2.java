@@ -1,4 +1,4 @@
-package homework6;
+package homework_6;
 
 import java.util.Random;
 
