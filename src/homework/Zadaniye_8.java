@@ -5,6 +5,11 @@ import java.util.Random;
 
 public class Zadaniye_8 {
     public static void main(String[] args) {
+
+
+        System.out.println(-1 >>> -1);
+
+
         char[][] mass = new char[3][3];
 
         Random rnd = new Random();

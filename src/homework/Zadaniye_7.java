@@ -6,8 +6,14 @@ import java.util.Scanner;
 public class Zadaniye_7 {
     public static void main(String[] args) {
 
+
         int size = 0;
         char[] simbols = new char[size];
+
+
+        System.out.println(2 & 4);
+
+
 
         while (true) {
             Scanner sc = new Scanner(System.in);
