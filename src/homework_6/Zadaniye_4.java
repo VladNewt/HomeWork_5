@@ -2,7 +2,7 @@ package homework_6;
 
 public class Zadaniye_4 {
     public static void main(String[] args) {
-
+//
         String str =
                 "Падение Гипериона#Маракотова бездна#Молли Мун и волшебная "
                         +"книга гипноза#451 градус по Фаренгейту#Планета Ка-Пэкс#"
