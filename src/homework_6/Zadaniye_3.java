@@ -6,7 +6,7 @@ public class Zadaniye_3 {
         String[] arr = str.split(".");
 
         String newstr = str.join(" ",arr);
-//
+
         System.out.println(newstr);
     }
 }
